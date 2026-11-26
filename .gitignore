@@ -1,0 +1,40 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+.venv-ml/
+venv/
+env/
+
+# Dataset
+datasets/
+RSD-YOLO-Dataset-v1.0/
+*.zip
+
+# Model weights
+*.pt
+*.onnx
+*.engine
+
+# Training runs and generated outputs
+runs/
+outputs/
+temp/
+*.mp4
+*.avi
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
